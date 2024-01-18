@@ -1,0 +1,219 @@
+[
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+        "file_last_write": 1700053854.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AsianOption@F@generatePath#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "generatePath",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 25,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@getArithmeticMean#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "getArithmeticMean",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 37,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@getGeometricMean#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "getGeometricMean",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 50,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@printPath#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "printPath",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 62,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@getArithmeticAsianCallPrice#I#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "getArithmeticAsianCallPrice(int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 73,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@getArithmeticAsianPutPrice#I#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "getArithmeticAsianPutPrice(int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 89,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@getGeometricAsianCallPrice#I#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "getGeometricAsianCallPrice(int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 105,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@getGeometricAsianPutPrice#I#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "getGeometricAsianPutPrice(int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 121,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AsianOption@F@operator()#C#C#I#",
+                "kind": 7,
+                "parent_name": "AsianOption",
+                "name": "operator(char, char, int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
+                "line": 137,
+                "column": 21,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.h",
+        "file_last_write": 1700053854.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AsianOption",
+                "kind": 2,
+                "parent_name": "",
+                "name": "AsianOption",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.h",
+                "line": 3,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getOneGaussianByBoxMueller.cpp",
+        "file_last_write": 1700053854.0,
+        "definitions": [
+            {
+                "usr": "c:@F@getOneGaussianByBoxMueller#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getOneGaussianByBoxMueller",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getOneGaussianByBoxMueller.cpp",
+                "line": 5,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getOneGaussianByBoxMueller.h",
+        "file_last_write": 1700053854.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecMean.cpp",
+        "file_last_write": 1700053854.0,
+        "definitions": [
+            {
+                "usr": "c:@F@getVecMean#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getVecMean(std::vector<double>)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecMean.cpp",
+                "line": 6,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecMean.h",
+        "file_last_write": 1700053854.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecStdDev.cpp",
+        "file_last_write": 1700053854.0,
+        "definitions": [
+            {
+                "usr": "c:@F@getVecStdDev#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getVecStdDev(std::vector<double>)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecStdDev.cpp",
+                "line": 7,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecStdDev.h",
+        "file_last_write": 1700053854.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/main.cpp",
+        "file_last_write": 1700053854.0,
+        "definitions": [
+            {
+                "usr": "c:@F@main#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "main",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/main.cpp",
+                "line": 13,
+                "column": 5,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/rcpp_hello.cpp",
+        "file_last_write": 1705570424.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rcpp_hello#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpp_hello",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/rcpp_hello.cpp",
+                "line": 7,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
