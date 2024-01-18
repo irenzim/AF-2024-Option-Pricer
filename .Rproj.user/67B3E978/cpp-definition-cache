@@ -1,111 +1,91 @@
 [
     {
-        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-        "file_last_write": 1700053854.0,
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+        "file_last_write": 1705581391.0,
         "definitions": [
             {
-                "usr": "c:@S@AsianOption@F@generatePath#",
+                "usr": "c:@S@BarrierOption@F@generatePath#",
                 "kind": 7,
-                "parent_name": "AsianOption",
+                "parent_name": "BarrierOption",
                 "name": "generatePath",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 25,
-                "column": 19,
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 27,
+                "column": 21,
                 "hidden": false
             },
             {
-                "usr": "c:@S@AsianOption@F@getArithmeticMean#",
+                "usr": "c:@S@BarrierOption@F@getArithmeticMean#",
                 "kind": 7,
-                "parent_name": "AsianOption",
+                "parent_name": "BarrierOption",
                 "name": "getArithmeticMean",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 37,
-                "column": 21,
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 39,
+                "column": 23,
                 "hidden": false
             },
             {
-                "usr": "c:@S@AsianOption@F@getGeometricMean#",
+                "usr": "c:@S@BarrierOption@F@getGeometricMean#",
                 "kind": 7,
-                "parent_name": "AsianOption",
+                "parent_name": "BarrierOption",
                 "name": "getGeometricMean",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 50,
-                "column": 21,
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 52,
+                "column": 23,
                 "hidden": false
             },
             {
-                "usr": "c:@S@AsianOption@F@printPath#",
+                "usr": "c:@S@BarrierOption@F@printPath#",
                 "kind": 7,
-                "parent_name": "AsianOption",
+                "parent_name": "BarrierOption",
                 "name": "printPath",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 62,
-                "column": 19,
-                "hidden": false
-            },
-            {
-                "usr": "c:@S@AsianOption@F@getArithmeticAsianCallPrice#I#",
-                "kind": 7,
-                "parent_name": "AsianOption",
-                "name": "getArithmeticAsianCallPrice(int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 73,
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 64,
                 "column": 21,
                 "hidden": false
             },
             {
-                "usr": "c:@S@AsianOption@F@getArithmeticAsianPutPrice#I#",
+                "usr": "c:@S@BarrierOption@F@getArithmeticBarrierPutPrice#I#",
                 "kind": 7,
-                "parent_name": "AsianOption",
-                "name": "getArithmeticAsianPutPrice(int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 89,
-                "column": 21,
+                "parent_name": "BarrierOption",
+                "name": "getArithmeticBarrierPutPrice(int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 76,
+                "column": 23,
                 "hidden": false
             },
             {
-                "usr": "c:@S@AsianOption@F@getGeometricAsianCallPrice#I#",
+                "usr": "c:@S@BarrierOption@F@getGeometricBarrierPutPrice#I#",
                 "kind": 7,
-                "parent_name": "AsianOption",
-                "name": "getGeometricAsianCallPrice(int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 105,
-                "column": 21,
+                "parent_name": "BarrierOption",
+                "name": "getGeometricBarrierPutPrice(int)",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 101,
+                "column": 23,
                 "hidden": false
             },
             {
-                "usr": "c:@S@AsianOption@F@getGeometricAsianPutPrice#I#",
+                "usr": "c:@S@BarrierOption@F@operator()#C#C#I#",
                 "kind": 7,
-                "parent_name": "AsianOption",
-                "name": "getGeometricAsianPutPrice(int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 121,
-                "column": 21,
-                "hidden": false
-            },
-            {
-                "usr": "c:@S@AsianOption@F@operator()#C#C#I#",
-                "kind": 7,
-                "parent_name": "AsianOption",
+                "parent_name": "BarrierOption",
                 "name": "operator(char, char, int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.cpp",
-                "line": 137,
-                "column": 21,
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
+                "line": 122,
+                "column": 23,
                 "hidden": false
             }
         ],
         "hidden": false
     },
     {
-        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.h",
-        "file_last_write": 1700053854.0,
+        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.h",
+        "file_last_write": 1705581613.0,
         "definitions": [
             {
-                "usr": "c:@S@AsianOption",
+                "usr": "c:@S@BarrierOption",
                 "kind": 2,
                 "parent_name": "",
-                "name": "AsianOption",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/AsianOption.h",
+                "name": "BarrierOption",
+                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.h",
                 "line": 3,
                 "column": 7,
                 "hidden": false
@@ -137,63 +117,17 @@
         "hidden": false
     },
     {
-        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecMean.cpp",
-        "file_last_write": 1700053854.0,
-        "definitions": [
-            {
-                "usr": "c:@F@getVecMean#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
-                "kind": 6,
-                "parent_name": "",
-                "name": "getVecMean(std::vector<double>)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecMean.cpp",
-                "line": 6,
-                "column": 8,
-                "hidden": false
-            }
-        ],
-        "hidden": false
-    },
-    {
-        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecMean.h",
-        "file_last_write": 1700053854.0,
-        "definitions": [],
-        "hidden": false
-    },
-    {
-        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecStdDev.cpp",
-        "file_last_write": 1700053854.0,
-        "definitions": [
-            {
-                "usr": "c:@F@getVecStdDev#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
-                "kind": 6,
-                "parent_name": "",
-                "name": "getVecStdDev(std::vector<double>)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecStdDev.cpp",
-                "line": 7,
-                "column": 8,
-                "hidden": false
-            }
-        ],
-        "hidden": false
-    },
-    {
-        "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/getVecStdDev.h",
-        "file_last_write": 1700053854.0,
-        "definitions": [],
-        "hidden": false
-    },
-    {
         "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/main.cpp",
-        "file_last_write": 1700053854.0,
+        "file_last_write": 1705581149.0,
         "definitions": [
             {
-                "usr": "c:@F@main#",
+                "usr": "c:@F@getArithmeticBarrierPutPrice#I#d#d#d#d#d#d#L#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "main",
+                "name": "getArithmeticBarrierPutPrice(int, double, double, double, double, double, double, long)",
                 "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/main.cpp",
-                "line": 13,
-                "column": 5,
+                "line": 14,
+                "column": 8,
                 "hidden": false
             }
         ],
