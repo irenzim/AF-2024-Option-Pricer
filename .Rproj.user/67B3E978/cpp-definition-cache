@@ -1,7 +1,7 @@
 [
     {
         "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-        "file_last_write": 1705581391.0,
+        "file_last_write": 1706008232.0,
         "definitions": [
             {
                 "usr": "c:@S@BarrierOption@F@generatePath#",
@@ -14,62 +14,22 @@
                 "hidden": false
             },
             {
-                "usr": "c:@S@BarrierOption@F@getArithmeticMean#",
-                "kind": 7,
-                "parent_name": "BarrierOption",
-                "name": "getArithmeticMean",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-                "line": 39,
-                "column": 23,
-                "hidden": false
-            },
-            {
-                "usr": "c:@S@BarrierOption@F@getGeometricMean#",
-                "kind": 7,
-                "parent_name": "BarrierOption",
-                "name": "getGeometricMean",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-                "line": 52,
-                "column": 23,
-                "hidden": false
-            },
-            {
                 "usr": "c:@S@BarrierOption@F@printPath#",
                 "kind": 7,
                 "parent_name": "BarrierOption",
                 "name": "printPath",
                 "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-                "line": 64,
+                "line": 40,
                 "column": 21,
                 "hidden": false
             },
             {
-                "usr": "c:@S@BarrierOption@F@getArithmeticBarrierPutPrice#I#",
+                "usr": "c:@S@BarrierOption@F@getBarrierPutPrice#I#",
                 "kind": 7,
                 "parent_name": "BarrierOption",
-                "name": "getArithmeticBarrierPutPrice(int)",
+                "name": "getBarrierPutPrice(int)",
                 "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-                "line": 76,
-                "column": 23,
-                "hidden": false
-            },
-            {
-                "usr": "c:@S@BarrierOption@F@getGeometricBarrierPutPrice#I#",
-                "kind": 7,
-                "parent_name": "BarrierOption",
-                "name": "getGeometricBarrierPutPrice(int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-                "line": 101,
-                "column": 23,
-                "hidden": false
-            },
-            {
-                "usr": "c:@S@BarrierOption@F@operator()#C#C#I#",
-                "kind": 7,
-                "parent_name": "BarrierOption",
-                "name": "operator(char, char, int)",
-                "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.cpp",
-                "line": 122,
+                "line": 50,
                 "column": 23,
                 "hidden": false
             }
@@ -78,7 +38,7 @@
     },
     {
         "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/BarrierOption.h",
-        "file_last_write": 1705581613.0,
+        "file_last_write": 1706008320.0,
         "definitions": [
             {
                 "usr": "c:@S@BarrierOption",
@@ -118,13 +78,13 @@
     },
     {
         "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/main.cpp",
-        "file_last_write": 1705581149.0,
+        "file_last_write": 1706008372.0,
         "definitions": [
             {
-                "usr": "c:@F@getArithmeticBarrierPutPrice#I#d#d#d#d#d#d#L#",
+                "usr": "c:@F@getBarrierPutPrice#I#d#d#d#d#d#d#L#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "getArithmeticBarrierPutPrice(int, double, double, double, double, double, double, long)",
+                "name": "getBarrierPutPrice(int, double, double, double, double, double, double, long)",
                 "file": "/Users/irenaz/Desktop/Masters - DSBA/2 year/Applied Finance/myOwnPackage/OptionPricer/src/main.cpp",
                 "line": 14,
                 "column": 8,
