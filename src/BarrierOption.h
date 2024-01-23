@@ -19,12 +19,8 @@ public:
 
   //methods
   void generatePath();
-  double getArithmeticMean();
-  double getGeometricMean();
   void printPath();
-  double getArithmeticBarrierPutPrice(int nReps);
-  double getGeometricBarrierPutPrice(int nReps);
-  double operator()(char char1, char char2, int nReps);
+  double getBarrierPutPrice(int nReps);
 
   //members
   std::vector<double> thisPath;

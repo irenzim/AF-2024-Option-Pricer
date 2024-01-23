@@ -10,9 +10,9 @@ Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
 Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
-// getArithmeticBarrierPutPrice
-double getArithmeticBarrierPutPrice(int nInt, double strike, double spot, double vol, double r, double expiry, double barrier, long int nReps);
-RcppExport SEXP _OptionPricer_getArithmeticBarrierPutPrice(SEXP nIntSEXP, SEXP strikeSEXP, SEXP spotSEXP, SEXP volSEXP, SEXP rSEXP, SEXP expirySEXP, SEXP barrierSEXP, SEXP nRepsSEXP) {
+// getBarrierPutPrice
+double getBarrierPutPrice(int nInt, double strike, double spot, double vol, double r, double expiry, double barrier, long int nReps);
+RcppExport SEXP _OptionPricer_getBarrierPutPrice(SEXP nIntSEXP, SEXP strikeSEXP, SEXP spotSEXP, SEXP volSEXP, SEXP rSEXP, SEXP expirySEXP, SEXP barrierSEXP, SEXP nRepsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -24,7 +24,7 @@ BEGIN_RCPP
     Rcpp::traits::input_parameter< double >::type expiry(expirySEXP);
     Rcpp::traits::input_parameter< double >::type barrier(barrierSEXP);
     Rcpp::traits::input_parameter< long int >::type nReps(nRepsSEXP);
-    rcpp_result_gen = Rcpp::wrap(getArithmeticBarrierPutPrice(nInt, strike, spot, vol, r, expiry, barrier, nReps));
+    rcpp_result_gen = Rcpp::wrap(getBarrierPutPrice(nInt, strike, spot, vol, r, expiry, barrier, nReps));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -40,7 +40,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_OptionPricer_getArithmeticBarrierPutPrice", (DL_FUNC) &_OptionPricer_getArithmeticBarrierPutPrice, 8},
+    {"_OptionPricer_getBarrierPutPrice", (DL_FUNC) &_OptionPricer_getBarrierPutPrice, 8},
     {"_OptionPricer_rcpp_hello", (DL_FUNC) &_OptionPricer_rcpp_hello, 0},
     {NULL, NULL, 0}
 };

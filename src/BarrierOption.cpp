@@ -2,7 +2,7 @@
 #include<cmath>
 #include"getOneGaussianByBoxMueller.h"
 #include"BarrierOption.h"
-
+using namespace std;
 
 //definition of constructor
 BarrierOption::BarrierOption(
@@ -35,59 +35,38 @@ void BarrierOption::generatePath(){
   }
 }
 
-//method definition
-double BarrierOption::getArithmeticMean(){
-
-  double runningSum = 0.0;
-
-  for(int i = 0; i < nInt; i++){
-    runningSum += thisPath[i];
-  }
-
-  return runningSum/double(nInt);
-}
-
-
-//method definition
-double BarrierOption::getGeometricMean(){
-
-  double runningSum = 0.0;
-
-  for(int i = 0; i < nInt ; i++){
-    runningSum += log(thisPath[i]);
-  }
-
-  return exp(runningSum/double(nInt));
-}
 
 //method definition
 void BarrierOption::printPath(){
-
   for(int i = 0;  i < nInt; i++){
-
     std::cout << thisPath[i] << "\n";
-
   }
-
 }
 
 
+// z generatePath ostatni element
+
 //method definition
-double BarrierOption::getArithmeticBarrierPutPrice(int nReps){
+double BarrierOption::getBarrierPutPrice(int nReps){
 
   double rollingSum = 0.0;
-  double thisMean = 0.0;
+  double last_price;
+  double max_price;
 
   for(int i = 0; i < nReps; i++){
     generatePath();
-    thisMean=getArithmeticMean();
+    // assign last price of the underlying (S_T)
+    last_price = thisPath[thisPath.size()-1];
 
-    // Check if S > barrier level
-    bool barrierActivated = (spot>barrier);
+    // assign maximum value of the underlying on path (max(S_t))
+    max_price = *std::max_element(thisPath.begin(), thisPath.end());
 
-    // Payoff calculation if the barrier is crossed
+    // 1. Check if S_t > barrier level
+    bool barrierActivated = (max_price > barrier);
+
+    // 2. Payoff calculation if the barrier is crossed & strike > last_price
     if (barrierActivated) {
-      rollingSum += (thisMean < strike) ? (strike - thisMean) : 0;
+      rollingSum += (strike > last_price) ? (strike - last_price) : 0;
     }
   }
 
@@ -96,31 +75,3 @@ double BarrierOption::getArithmeticBarrierPutPrice(int nReps){
 }
 
 
-
-//method definition
-double BarrierOption::getGeometricBarrierPutPrice(int nReps){
-
-  double rollingSum = 0.0;
-  double thisMean = 0.0;
-
-  for(int i = 0; i < nReps; i++){
-    generatePath();
-    thisMean=getGeometricMean();
-
-    // Check if S > barrier level
-    bool barrierActivated = (spot>barrier);
-    if (barrierActivated) {
-      rollingSum += (thisMean < strike)? (strike - thisMean) : 0;
-      }
-  }
-
-  return exp(-r*expiry)*rollingSum/double(nReps);
-
-}
-
-//overloaded operator ();
-double BarrierOption::operator()(char char1, char char2, int nReps){
-  if ((char1 == 'A') & (char2 =='P')) return getArithmeticBarrierPutPrice(nReps);
-  else if ((char1 == 'G') & (char2 =='P')) return getGeometricBarrierPutPrice(nReps);
-  else return -99;
-}

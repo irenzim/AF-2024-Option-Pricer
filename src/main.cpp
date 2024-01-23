@@ -11,7 +11,7 @@ using std::cin;
 using namespace Rcpp;
 
 // [[Rcpp::export]]
-double getArithmeticBarrierPutPrice(
+double getBarrierPutPrice(
   int nInt,
   double strike,
   double spot,
@@ -29,5 +29,5 @@ double getArithmeticBarrierPutPrice(
   BarrierOption myBarrier(nInt, strike, spot, vol, r, expiry, barrier);
 
   // return price of the option
-  return myBarrier.getArithmeticBarrierPutPrice(nReps);
+  return myBarrier.getBarrierPutPrice(nReps);
 }
